@@ -50,7 +50,6 @@ See http://xinxinw1.github.io/tools/ for an example.
 ## Function reference
 
 ```
-
 Note: This is an incomplete reference, so some functions exist, but aren't documented yet
 
 Note 2: These are all accessed by $.<insert name>
