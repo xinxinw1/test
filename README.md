@@ -26,6 +26,21 @@ What
 Test
 ++++
 
+## How to use in HTML
+
+1. Go to https://github.com/xinxinw1/tools/releases and download the latest release.
+2. Go to https://github.com/xinxinw1/ajax/releases and download the latest release.
+3. Extract `tools.js` from the first download and `ajax.js` from the second download into your project directory.
+4. Add
+   ```html
+   <script src="tools.js"></script>
+   <script src="ajax.js"></script>
+   ```
+   to your html file.
+5. Run `$.al($.get("ajax.js"))` to make sure it works.
+
+See http://xinxinw1.github.io/ajax/ for a demo.
+
 
 # Javascript Tools
 
