@@ -29,6 +29,46 @@ Test
 ## How to use in HTML
 
 1. Go to https://github.com/xinxinw1/tools/releases and download the latest release.
+2. Go to https://github.com/xinxinw1/prec-math/releases and download the latest release.
+3. Optionally, if you want complex number functions, go to https://github.com/xinxinw1/cmpl-math/releases and download the latest release.
+4. Go to https://github.com/xinxinw1/math-check/releases and download the latest release.
+5. Extract `tools.js` from the first download, `prec-math.js` from the second, and `cmpl-math.js` from the third, and `math-check.js` from the fourth into your project directory.
+6. Add
+   
+   ```html
+   <script src="tools.js"></script>
+   <script src="prec-math.js"></script>
+   <script src="cmpl-math.js"></script> <!-- if you want complex numbers -->
+   <script src="math-check.js"></script>
+   ```
+   
+   to your html file.
+7. Run `$.al(Checker.proc(R.mul)(2534, 5253))` to make sure it works.
+   (Should output `13311102`)
+8. If you are using complex numbers, run `$.al(Checker.proc(C.mul)(2534, "5253"))` to make sure it works.
+   (Should output `["13311102", "0"]`)
+
+See http://xinxinw1.github.io/math-check/ for a demo.
+
+## How to use in Node.js
+
+1. Go to https://github.com/xinxinw1/tools/releases and download the latest release.
+2. Go to https://github.com/xinxinw1/prec-math/releases and download the latest release.
+3. Optionally, if you want complex number functions, go to https://github.com/xinxinw1/cmpl-math/releases and download the latest release.
+4. Go to https://github.com/xinxinw1/math-check/releases and download the latest release.
+5. Extract `tools.js` from the first download, `prec-math.js` from the second, and `cmpl-math.js` from the third, and `math-check.js` from the fourth into your project directory.
+6. Run `$ = require("./tools.js")` in node.
+7. Run `R = require("./prec-math.js")` in node
+8. If you want complex numbers, run `C = require("./cmpl-math.js")` in node
+9. Run `Checker = require("./math-check.js")` in node.
+10. Run `$.prn(Checker.proc(R.mul)(2534, 5253))` to make sure it works.
+    (Should output `13311102` and return `undefined`)
+11. If you are using complex numbers, run `$.prn(Checker.proc(C.mul)(2534, "5253"))` to make sure it works.
+    (Should output `["13311102", "0"]` and return `undefined`)
+
+## How to use in HTML
+
+1. Go to https://github.com/xinxinw1/tools/releases and download the latest release.
 2. Go to https://github.com/xinxinw1/ajax/releases and download the latest release.
 3. Extract `tools.js` from the first download and `ajax.js` from the second download into your project directory.
 4. Add
