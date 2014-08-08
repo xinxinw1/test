@@ -43,9 +43,9 @@ Test
    ```
    
    to your html file.
-7. Run `$.al(Checker.proc(R.mul)(2534, 5253))` to make sure it works.
+7. Run `$.al(Checker.proc(R.mul)(2534, 5253))` to make sure it works.  
    (Should output `13311102`)
-8. If you are using complex numbers, run `$.al(Checker.proc(C.mul)(2534, "5253"))` to make sure it works.
+8. If you are using complex numbers, run `$.al(Checker.proc(C.mul)(2534, "5253"))` to make sure it works.  
    (Should output `["13311102", "0"]`)
 
 See http://xinxinw1.github.io/math-check/ for a demo.
@@ -61,9 +61,9 @@ See http://xinxinw1.github.io/math-check/ for a demo.
 7. Run `R = require("./prec-math.js")` in node
 8. If you want complex numbers, run `C = require("./cmpl-math.js")` in node
 9. Run `Checker = require("./math-check.js")` in node.
-10. Run `$.prn(Checker.proc(R.mul)(2534, 5253))` to make sure it works.
+10. Run `$.prn(Checker.proc(R.mul)(2534, 5253))` to make sure it works.  
     (Should output `13311102` and return `undefined`)
-11. If you are using complex numbers, run `$.prn(Checker.proc(C.mul)(2534, "5253"))` to make sure it works.
+11. If you are using complex numbers, run `$.prn(Checker.proc(C.mul)(2534, "5253"))` to make sure it works.  
     (Should output `["13311102", "0"]` and return `undefined`)
 
 ## How to use in HTML
